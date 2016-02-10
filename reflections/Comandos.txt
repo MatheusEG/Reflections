@@ -1,0 +1,66 @@
+REMOVER PASTA
+	rm -rf nomeDaPasta
+CRIAR PASTA
+	mkdir nomeDaPasta
+
+------ Git -------------
+criar as pastas e arquivos inicias
+
+no terminal ir até a pasta
+
+git init
+
+git status
+
+git add . (. add todos os arquivos, tb é possivél por nome ex: matheus.*)
+
+git commit -m "Comentário aqui"
+
+git diff (mostra as diferenças entre o arquivo localizado no working
+directory e o que esta na stage area)
+
+git diff --staged (mostra a diferença entre arquivos da stage area e commit)
+
+git log --pretty=oneline (Printar somente id da commit e o comentário)
+
+gitk (abrir interface grafica)
+
+git commit --amend -m "comentário" (modificando a commit mais recente) 
+
+git checkkout -- nome.extencao (remover alteraçoes)
+
+git rm (apagar arquivo)
+
+git reset HEAD nome.extencao (remover um arquivo da stage area)
+
+git reset --hard (Descartar todas as mudanças no working directory e stage area)
+
+git branch (mostra todos os ramos do projeto)
+
+git branch nome (adiciona um ramo)
+
+git log --graph --oneline branch1 branch2(mostrar as alterações do master e do
+branch)
+
+git show commit_id(mostrar as alterações entre esta commit e sua antecessora)
+
+git merge commit1 commit2 (misturar duas commits, LEMBRE-SE ESSE COMANDO
+									MISTURA AUTOMATICAMENTE COM A COMMIT
+									ATUAL SELECIONADA PELO CHECKOUT)
+
+git branch -d branchName (apagar um branch)
+
+------Conectar com github-----------
+
+git remote (ver e criar remotes)
+
+git remote origin URL (criar remote)
+
+git push origin master
+
+
+
+É possível deixar alguns arquivos invisiveis para o git, para isso basta
+criar um arquivo com o nome ".gitignore" e dentro dele add os nomes
+dos arquivos a serem ignorados, um em cada linha.
+

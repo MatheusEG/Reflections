@@ -1,0 +1,82 @@
+First of all, I don't speak English very well ;¬D
+
+How did viewing a diff between two versions of a file help you see the bug that
+ was introduced?
+
+ By use of command line tools like diff or FC we can check two files and see
+ the diference between them. We already know that last version is working so
+ we just need to see the differences between the two versions and find where
+ we went wrong. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+ This will help me to change the codes and if to happen something bad on my
+ project I could to take a previous version and just update it.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+ The way of the git is much more tahn google docs because we can save only
+ what we need, with the google docs we will have many versions and it could
+ make things difficult.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file separately?
+ 
+ I think it is beacause control systems like Git are more specifc to full
+ projects as we use on programming and others are created comprehensively
+
+How can you use the commands git log and git diff to view the history of files?
+
+ I can use these commands to see all backups and seach one, also we can use
+ to seach differences between two commits.
+
+How might using version control make you more confident to make changes
+that could break something?
+
+ Using version control I am feel confident to make all changes because if I
+ make something wrong I can return to older versions using Git.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+ I want to utilize the full potential to backup my projecs, NOW.
+
+
+-----------------------Lesson 2----------------------------------------
+
+What happens when you initialize a repository? Why do you need to do it?
+
+ Git starts to monitoring the folder
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+ The stage area is the middle point between the two.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+ I can make the change in one file and add only it on stage area and before 
+ make a commit which will have only this change and after make the next change
+ and make the same procedure
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+ Branchs are helpful when we want to make some improve in our project without
+ lose the last version. Example when we want to add a new language to project
+ without lose the the original version
+
+How do the diagrams help you visualize the branch structure?
+
+ Diagrams make the things more visible, without it is hard to understand
+ because is all abstract too much.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+ The pros are the facility to do it, but if two or more person change the same
+ part of the code you will have some dificuties with Git.
