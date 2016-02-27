@@ -23,17 +23,35 @@ git diff --staged (mostra a diferença entre arquivos da stage area e commit)
 
 git log --pretty=oneline (Printar somente id da commit e o comentário)
 
-gitk (abrir interface grafica)
+gitk (abrir interface grafica) 
 
-git commit --amend -m "comentário" (modificando a commit mais recente) 
-
-git checkkout -- nome.extencao (remover alteraçoes)
+git checkout HASH/CODIGO COMMIT/BRANCH/MASTER (voltar a um estado ou mudar o galho)
 
 git rm (apagar arquivo)
 
+----------------------DEU RUIM---------------------------------
+
 git reset HEAD nome.extencao (remover um arquivo da stage area)
 
-git reset --hard (Descartar todas as mudanças no working directory e stage area)
+git commit --amend -m "comentário"(Reescreve os dados da ultima commit com os atuais, também
+					  				é possível mudar o texto da commit )
+
+
+//HEAD significa a ultima commit do branch atual 
+//HEAD~2 seriam as duas ultimas
+
+git revert HEAD~1 (Se já tiver feito push, o melhor é "reverter" o ultimo commit,
+				   em vez de o desfazer. "Reverter", neste contexto, significa
+				   criar um commit novo que apague as linhas introduzidas
+				   as linhas apagadas no último commit.)
+
+git reset HEAD~1 --soft (Deletar commit sem descartar as mudanças já feitas 
+						 no trabalho)
+
+git reset HEAD~1 --hard (Descartar todas as mudanças no working directory e
+						 stage area)
+
+-----------------------------------------------------
 
 git branch (mostra todos os ramos do projeto)
 
@@ -54,9 +72,20 @@ git branch -d branchName (apagar um branch)
 
 git remote (ver e criar remotes)
 
-git remote origin URL (criar remote)
+//-----"ORIGIN" É O NOME DO LOCAL BRANCH
 
-git push origin master
+git remote origin add URL (criar remote)
+
+git push origin master (empurrar um ramo para o github)
+
+git pull origin master	(puxar um ramo para o github)
+
+git fetch (atualiza somente o ramo origin sem fazer o "merge" com suas 
+			alterações locais)
+
+git pull origin master = git fetch origin
+						 git merge master origin/master
+
 
 
 

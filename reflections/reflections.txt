@@ -75,8 +75,30 @@ How do the diagrams help you visualize the branch structure?
  Diagrams make the things more visible, without it is hard to understand
  because is all abstract too much.
 
+
+-----------------------Lesson 3----------------------------------------
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
  The pros are the facility to do it, but if two or more person change the same
  part of the code you will have some dificuties with Git.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+ 
+ This way alows me to make my onw organization, if the chagens were 
+ automatically it may be bad because could have more saves that I need
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+ Forks: It's a command that only works on GitHUb that alows me pull a repository
+ from other user, it also tell the own of the repository when I made it
+
+ Clones: As the name it clone all the repository from Github to your computer
+
+ Branches: it are project versions that aren't the main, but if we want we can
+ merge them with the anothers like main
+
+
