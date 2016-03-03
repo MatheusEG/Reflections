@@ -31,6 +31,8 @@ git rm (apagar arquivo)
 
 ----------------------DEU RUIM---------------------------------
 
+rm -rf .git (Tirando a inicialização do git)
+
 git reset HEAD nome.extencao (remover um arquivo da stage area)
 
 git commit --amend -m "comentário"(Reescreve os dados da ultima commit com os atuais, também
