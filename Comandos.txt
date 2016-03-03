@@ -52,6 +52,9 @@ git reset HEAD~1 --soft (Deletar commit sem descartar as mudanças já feitas
 
 git reset HEAD~1 --hard (Descartar todas as mudanças no working directory e
 						 stage area)
+						 
+						 
+git remote set-url origin git://new.url.here (atualizando remote)						 
 
 -----------------------------------------------------
 
