@@ -21,7 +21,7 @@ directory e o que esta na stage area)
 
 git diff --staged (mostra a diferença entre arquivos da stage area e commit)
 
-git log --pretty=oneline (Printar somente id da commit e o comentário)
+git log --pretty=oneline ou git log --oneline(Printar somente id da commit e o comentário)
 
 gitk (abrir interface grafica) 
 
@@ -34,6 +34,8 @@ git rm (apagar arquivo)
 rm -rf .git (Tirando a inicialização do git)
 
 git reset HEAD nome.extencao (remover um arquivo da stage area)
+
+git reset HEAD -- .(remover todos os arquivos da stage area)
 
 git commit --amend -m "comentário"(Reescreve os dados da ultima commit com os atuais, também
 					  				é possível mudar o texto da commit )
